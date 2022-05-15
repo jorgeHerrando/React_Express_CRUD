@@ -11,7 +11,7 @@ Para empezar a usarlo:
 # Abrir DB en el puerto 8889 0 3306
 
     cambiar puerto en archivo config/config.json
-    crear DB con nombre usuario y contraseña detallados
+    crear DB con el nombre de DB, nombre usuario y contraseña detallados en config/config.json
 
 # Migrar la DB
 
