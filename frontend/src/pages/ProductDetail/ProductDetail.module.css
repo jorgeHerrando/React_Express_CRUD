@@ -1,0 +1,72 @@
+.container {
+  padding: 20px 5%;
+}
+.title {
+  text-align: center;
+}
+
+.imageContainer {
+  width: 100%;
+}
+.imageContainer img {
+  width: 100%;
+}
+
+.infoProduct {
+  padding: 1rem 0.5rem;
+}
+.infoProduct p {
+  margin: 0;
+}
+
+.descriptionContainer {
+  margin-bottom: 10px;
+}
+.descriptionContainer:last-child {
+  margin-bottom: 0;
+}
+.titleInfo {
+  margin-bottom: 5px;
+  color: #6a6969;
+  text-decoration: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonEdit,
+.buttonDelete {
+  width: 100%;
+  max-width: 300px;
+}
+.buttonEdit {
+  margin-bottom: 10px;
+}
+.buttonEditContainer {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .imageContainer {
+    max-width: 320px;
+  }
+  .imageContainer img {
+    border-radius: 10px;
+  }
+  .productContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 30px;
+  }
+  .buttonEdit,
+  .buttonDelete {
+    max-width: 500px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+}

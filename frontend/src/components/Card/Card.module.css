@@ -1,0 +1,26 @@
+.card {
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cardImage {
+  border-bottom: 1px solid grey;
+}
+
+.footerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backgroundTransporte {
+  background-color: bisque;
+}
+.backgroundHogar {
+  background-color: #90e3cd;
+}
+.backgroundRopa {
+  background-color: #e9ccec;
+}

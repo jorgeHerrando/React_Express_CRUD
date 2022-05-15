@@ -1,0 +1,29 @@
+.mainContainer {
+  padding: 20px 5%;
+}
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+@media (min-width: 576px) {
+  .cardGroup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+}
+
+@media (min-width: 900px) {
+  .cardGroup {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mainContainer {
+    padding: 40px 5%;
+  }
+}
+@media (min-width: 1200px) {
+  .cardGroup {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
