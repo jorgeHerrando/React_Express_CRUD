@@ -1,5 +1,7 @@
 Data fetching de la API implemtentada. Aquí podremos crear, editar, y borrar productos, así como ver todos ellos(los enabled), o el detalle de uno particular.
 
+Las imágenes y archivos estáticos se guardarán en el server del backend
+
 # instalar dependencia
 
     npm i
