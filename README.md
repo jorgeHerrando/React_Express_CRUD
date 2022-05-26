@@ -2,10 +2,6 @@
 
 ---
 
-# Proyecto backend para iboo agency
-
----
-
 Para empezar a usarlo:
 
 # Instalar dependencias:
