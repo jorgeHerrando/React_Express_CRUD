@@ -1,49 +1,51 @@
-# 1. Levantar el backend
+Simple CRUD operations developed with Express and ReactJS
+
+# 1. Setting backend
 
 ---
 
-Para empezar a usarlo:
+To start:
 
-# Instalar dependencias:
+# Install dependencies:
 
     npm i
 
-# Abrir DB en el puerto 8889 0 3306
+# Set DB in port 8889(Mac) or 3306(Windows)
 
-    cambiar puerto en archivo config/config.json
-    crear DB con el nombre de DB, nombre usuario y contraseña detallados en config/config.json
+    change port in config/config.json file
+    create DB with DB name, username and password specified in config/config.json
 
-# Migrar la DB
+# Migrate DB
 
     npx sequelize db:migrate
 
-# Poblar la DB para empezar con algo de data
+# Seed DB to have some intitial data
 
     npx sequelize-cli db:seed:all
 
-# Levantar el puerto
+# Running the project
 
     npm run dev
 
-# 2. Levantar el frontend
+# 2. Setting frontend
 
-Data fetching de la API implemtentada. Aquí podremos crear, editar, y borrar productos, así como ver todos ellos(los enabled), o el detalle de uno particular.
+Data fetching from developed API. We can create, edit, read(enabled ones) and delete products, or see one particular item detailed. 
 
-Las imágenes y archivos estáticos se guardarán en el server del backend
+Images and static files will be stored on backend server 
 
-# instalar dependencia
+# install dependencies
 
     npm i
 
-# crear archivo .env con la siguiente info
+# create .env file containing the next info
 
     REACT_APP_API_URL=http://localhost:3001/api
     REACT_APP_STATIC_URL=http://localhost:3001
 
-donde 3001 es el puerto de la aplicación del server. Si este puerto, cambia, deberíamos cambiarlo aquí también
+where 3001 is the port of the server app. We should change this in here if the port changes
 
-# levantar la aplicación
+# Run the app
 
     npm start
 
-# A jugar!
+# Let's play!
